@@ -1,0 +1,17 @@
+{
+  "name": "bull-demo",
+  "version": "1.0.0",
+  "description": "A demo package of redis queues using bull",
+  "scripts": {
+    "start:producer": "node producer.js",
+    "start:consumer": "node consumer.js"
+  },
+  "author": "Kowshik Sundararajan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bull": "^3.15.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
